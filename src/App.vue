@@ -1,47 +1,18 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
+<script setup></script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <main
+    class="bg-gray-900 min-h-screen flex items-center justify-center flex-col p-20"
+  >
+    <div
+      class="rounded-md border border-gray-700 text-white bg-gray-800 p-6 mx-auto w-full max-w-[600px]"
+    >
+      <h1 class="text-2xl mb-4">𝕏 (Twitter) Descentralizado</h1>
+      <p class="text-base mb-4">
+        Esse é um twitter descentralizado, conecte sua carteira blockchain e
+        use seus Ethereums para enviar uma mensagem. Cada post enviado você terá
+        chance de ganhar um valor de Ethereum de volta.
+      </p>
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
   </main>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
