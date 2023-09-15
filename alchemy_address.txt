@@ -1,5 +1,0 @@
-Endereço do app:
-https://eth-mainnet.g.alchemy.com/v2/XqM6qNAzYdO5VltkeY5VspuuKbxf3FPD
-
-Chave privada do Metamask:
-baa4d0928b5e47521dc73862128372d15d730e5bbc471e368feaab2e7f087304
